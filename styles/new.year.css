@@ -1,0 +1,259 @@
+/* header */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 800px;
+    background-image: url('/images/banner/banner2.png');
+    text-align: right;
+    margin-bottom: 130px;
+}
+
+.first-header {
+    padding-top: 216px;
+    padding-bottom: 167px;
+    padding-left: 845px;
+    padding-right: 230px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.header-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+.contact-us {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 21px 25px;
+    background: #F15B22;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* main body part 1 */
+.main-part-1 {
+    /* padding-left: 206px;
+    padding-right: 322px; */
+    margin-bottom: 130px;
+    /* width: 1072px; */
+}
+
+.main-part-div {
+    display: flex;
+    align-items: center;
+    padding-left: 206px;
+    padding-right: 322px;
+    height: 723px;
+    /* width: 1072px; */
+}
+
+.main-div {}
+
+.title-main-part-1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.description-main-part-1 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.main-part-1-picture {
+    width: 569px;
+    height: 723.3px;
+    margin-right: 87px;
+    padding-left: 206px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+}
+
+ul li {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* my plans */
+.my-plan {
+    padding-left: 229px;
+    padding-right: 230px;
+    background: #FFFFFF;
+    margin-bottom: 98px;
+    width: 1140px;
+}
+
+.my-plan-info {
+    display: flex;
+    margin-right: 86px;
+    justify-content: space-between
+}
+
+.my-plan-header {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.my-plan-image {
+    margin-bottom: 24px;
+    width: 92.96px;
+    height: 92.96px;
+}
+
+.my-plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+    /* text-align: center; */
+}
+
+.my-plan-description {
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+    /* text-align: center; */
+}
+
+/* watch */
+:root {
+    --primary: hsla(26, 89%, 54%, 0.98);
+    --secondary: hsla(17, 88%, 54%, 0);
+}
+
+.watch {
+    background-image: linear-gradient(90deg, var(--primary), var(--secondary)),
+        url('/images/watch.png');
+    width: 1140px;
+    height: 300px;
+    /* background: linear-gradient(90deg, #f17c22fa 0%, #f15b2200 100%); */
+    border-radius: 8px;
+}
+
+.watch-div {
+    padding-left: 63px;
+    padding-top: 66px;
+    padding-bottom: 51px;
+    /* padding-right: 618px;  */
+}
+
+.watch-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+
+}
+
+.call-now {
+    font-size: 20px;
+    line-height: 23px;
+    color: #F15B22;
+    padding: 21px 36px;
+    border: none;
+    margin-bottom: 51px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+/* Future */
+.future {
+    background: #151414;
+    height: 577px;
+    /* display: flex; */
+}
+
+.future {
+    display: flex;
+    padding-top: 130px;
+    gap: 331px;
+    
+}
+
+.future-div {
+    padding-left: 230px;
+    padding-right:331px ;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 15px;
+}
+
+.future-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 34px;
+}
+
+.future-email {
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.future-phone {
+    color: #FFFFFF;
+    margin-bottom: 74px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.subscribe{
+  padding-right: 229px;
+}
+.email{
+    padding: 21px 21px;
+    border-radius: 5px, white;
+
+margin-bottom: 16px;
+background: #151414;
+}
+.subscribe{
+    font-weight: 600;
+font-size: 20px;
+color: #F15B22;
+padding: 20px 36px;
+border-radius: 5px;
+border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* overlaid gradinet */
