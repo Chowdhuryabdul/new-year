@@ -1,0 +1,233 @@
+* {
+    /* margin: 0; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: url('/images/banner/banner1.png');
+    background-repeat: no-repeat;
+    height: 808px;
+    text-align: right;
+    padding-top: 205px;
+    padding-right: 205px;
+    padding-left: 870px;
+    margin-bottom: 120px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 24px;
+}
+
+.header-text {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.contact-us {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 21px 26px;
+    background: #F15B22;
+    border-radius: 5px;
+    margin-top: 32px;
+    border: 0;
+}
+
+/* failure */
+.failure {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    padding-left: 205px;
+    padding-right: 322px;
+    margin-top: 120px;
+    margin-bottom: 130px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.failure-text {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 26px;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.falure-image {
+    width: 569px;
+    height: 723.3px;
+    /* padding-left: 205px; */
+}
+
+/* my plan */
+
+.plan {
+    padding-left: 230px;
+    padding-right: 230px;
+    margin-bottom: 130px;
+
+}
+
+.plan-header {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+.icon-part {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 86px;
+}
+
+.icon-1 {
+    width: 92.96px;
+    height: 92.96px;
+    margin-bottom: 24px;
+}
+
+.icon-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.icon-text {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    text-align: center;
+}
+
+/* positive */
+/* linear gradient  */
+
+:root {
+    --primary: hsl(17, 88%, 54%);
+    --secondary: hsla(17, 88%, 54%, 0);
+}
+
+
+.positive {
+    background-image: linear-gradient(90deg, var(--primary), var(--secondary)),
+        url('/images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    width: 1140px;
+    margin-left: 230px;
+    border-radius: 8px;
+    margin-bottom: 128px;
+}
+
+.positive-div {
+    padding-top: 59px;
+    padding-left: 64px;
+
+}
+
+.positive-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.call-now {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 21px 36px;
+    border: 0;
+    color: #F15B22;
+}
+
+/* footer  */
+.footer {
+    display: flex;
+    height: 577px;
+    padding: 130px 230px;
+    background: #151414;
+
+
+}
+
+.future {
+    margin-right: 331px;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.future-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.future-email {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.phone {
+    /* margin-bottom: 74px; */
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.icon {
+    margin-right: 17px;
+    margin-top: 32px;
+}
+
+.subscribe {}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.subscribe-email {
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    background: #151414;
+    padding: 21px 22px;
+    border: 2px solid;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.subscribe-btn {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px 36px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+}
